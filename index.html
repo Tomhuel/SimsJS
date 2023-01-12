@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+    <!-- etiquetas meta requeridas -->
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- Bootstrap CSS -->
+    <link rel="shortcut icon" href="./imgs/logo.png">
+    <link href='./css/styles.css' rel='stylesheet' type='text/css'>
+    <title>Sims</title>
+</head>
+<body>
+    <div class="container">
+        <br>
+        <div class='row'>
+            <div id="characters" class='col-3 d-flex flex-wrap justify-content-center'>
+                <button id="Carlos" class="btnCharacter" onclick="Carlos.changeState()">Carlos</button>
+                <button id="Gonzalo" class="btnCharacter" onclick="Gonzalo.changeState()">Gonzalo</button>
+                <button id="Luisa" class="btnCharacter" onclick="Luisa.changeState()">Luisa</button>
+                <button id="Fernando" class="btnCharacter" onclick="Fernando.changeState()">Fernando</button>
+                <button id="Amacio" class="btnCharacter" onclick="Amacio.changeState()">Amacio</button>
+                <button id="Carolina" class="btnCharacter" onclick="Carolina.changeState()">Carolina</button>
+            </div>
+    
+            <div id="rooms" class='col-5 d-flex flex-wrap justify-content-center'>
+    
+                <button id="Salon" class="btnRoom">Salón</button>
+                <button id="Cocina" class="btnRoom">Cocina</button>
+                <button id="Banio" class="btnRoom">Baño</button>
+                <button id="Dormitorio" class="btnRoom">Dormitorio</button>
+            
+            </div>
+    
+            <div id="log" class='col-4 bg-info rounded'>
+                
+            </div>
+        </div>
+    </div>
+
+<script src='./node_modules/bootstrap/dist/js/bootstrap.min.js'></script>
+</body>
+</html>
